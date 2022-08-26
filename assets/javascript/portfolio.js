@@ -312,7 +312,7 @@ $.getJSON(ipgeolocation, (data) => {
       writeLine(
         [
           `Access granted! <span style='font-size: 14px; color: #0f0;'>[success]</span>`,
-          `Welcome back!`,
+          `Welcome back, <i style='color: #0f0'>${ip}</i>! By the way, nice to see someone from <i style='color: #0f0'>${country}</i> here!`,
         ],
         30,
         500,
