@@ -1,0 +1,74 @@
+.body {
+    background-color: rgb(0, 0, 0) !important;
+    color: white;
+    margin: 0%;
+    font-family: 'Patrick Hand', cursive;
+    transition: 250ms;
+}
+
+.body2 {
+    transition: 250ms;
+    background-color: darkslateblue;
+    color: white;
+    margin: 0%;
+    font-family: 'Patrick Hand', cursive;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+  }
+
+a {
+    text-decoration: none;
+    color: white;
+    margin-left: 16px;
+}
+
+.header-text {
+    transition: 250ms;
+    cursor: default;
+}
+
+.header-text:hover {
+    color: rgb(0, 185, 185);
+}
+
+.schoveraqua {
+    transition: 250ms;
+}
+
+.schoverorange {
+    transition: 250ms;
+}
+
+.schoverorange:hover {
+    color: orange;
+}
+
+.header-textorange {
+    transition: 250ms;
+    cursor: default;
+}
+
+.header-textorange:hover {
+    color: orange;
+}
+
+.schoveraqua:hover {
+    color: rgb(0, 163, 204);
+}
+
+.yt:hover {
+    cursor: pointer;
+}
+
+.pv {
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+}
+
