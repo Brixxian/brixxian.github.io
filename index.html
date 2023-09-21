@@ -10,11 +10,22 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Patrick+Hand&family=Permanent+Marker&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <link rel="shortcut icon" href="B-only.ico" type="image/x-icon">
-    <script>
-        function youtube() {
-            alert("wurde gebannt sorry (falls es länger dauert erstelle ich einen neuen Kanal)");
-        }
 
+    <script>
+        var x = 0
+
+        function youtube() {
+
+            if(x == 1) {
+                document.getElementById("iconyt").href = "https://youtube.com/@arthuryoutube";
+            } else {
+                x = 1
+                alert("wurde gebannt sorry (falls es länger dauert erstelle ich einen neuen Kanal).\nWenn du meinen Zweitkanal erreichen willst dann klicke das YouTube Zeichen noch einmal an.");
+            }
+            
+            
+        }
+        
         function buttonToggle() {
             document.getElementById("body").classList.toggle('body');
             document.getElementById("header-text").classList.toggle("header-text")
@@ -22,11 +33,14 @@
             document.getElementById("iconyt").classList.toggle("schoveraqua")
             document.getElementById("icontt").classList.toggle("schoveraqua")
             document.getElementById("icondc").classList.toggle("schoveraqua")
+            document.getElementById("icongh").classList.toggle("schoveraqua")
             document.getElementById("iconyt").classList.toggle("schoverorange")
             document.getElementById("icontt").classList.toggle("schoverorange")
             document.getElementById("icondc").classList.toggle("schoverorange")
+            document.getElementById("icongh").classList.toggle("schoverorange")
             console.info("done");
         }
+        
     </script>
 
 </head>
@@ -37,6 +51,7 @@
                 <a onclick="youtube();" class="fa fa-brands fa-youtube schoveraqua yt" id="iconyt"></a>
                 <a href="https://tiktok.com/@brixxian" class="fa fa-brands fa-tiktok schoveraqua" id="icontt"></a>
                 <a href="https://discord.gg/X2qDxVxf8q" class="fa fa-brands fa-discord schoveraqua" id="icondc"></a>
+                <a href="https://github.com/Brixxian" class="fa fa-brands fa-github schoveraqua" id="icongh"></a>
             </h2>
     </div>
 </body>
