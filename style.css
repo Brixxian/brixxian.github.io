@@ -63,10 +63,6 @@ a {
     color: rgb(0, 163, 204);
 }
 
-.yt:hover {
-    cursor: pointer;
-}
-
 .pv {
     -webkit-user-select: none; /* Safari */
     -ms-user-select: none; /* IE 10 and IE 11 */
